@@ -9,16 +9,25 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: /(.*\.(gif|png|jpg))$
+- url: /(.*\.(gif|png|jpg|JPG))$
   static_files: static/\1
-  upload: static/.*\.(gif|png|jpg)$
+  upload: static/.*\.(gif|png|jpg|JPG)$
 
 - url: /css/(.*\.(css))$
   static_files: static/css/\1
   upload: static/css/.*\.(css)$
 
-- url: .*
-  script: main.app
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+
+- url: /index.html
+  static_files: static/index.html
+  upload: static/index.html
+
+- url: /about.html
+  static_files: static/about.html
+  upload: static/about.html
 
 libraries:
 - name: webapp2
