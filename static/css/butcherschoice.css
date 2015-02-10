@@ -1,0 +1,10 @@
+.imageswap {
+	background-image: url('/2.JPG');
+	width: 360px;
+	height: 360px;
+
+}
+
+.imageswap:hover {
+	background-image: url('/lipstick-gif.gif')
+}
