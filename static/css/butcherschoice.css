@@ -1,10 +1,83 @@
-.imageswap {
+.imageswaplipstick {
+	display: block;
+ 	margin: auto;
 	background-image: url('/2.JPG');
 	width: 360px;
 	height: 360px;
-
 }
 
-.imageswap:hover {
+.imageswaplipstick:hover {
 	background-image: url('/lipstick-gif.gif')
+}
+
+.imageswapcoats {
+	display: block;
+	margin: auto;
+	background-image: url('/12.JPG');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswapcoats:hover {
+	background-image: url('/coats.gif')
+}
+
+.imageswappoem {
+	display: block;
+	margin: auto;
+	background-image: url('/5.JPG');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswappoem:hover {
+	background-image: url('/poem.gif')
+}
+
+.imageswapthursdaycrawl {
+	display: block;
+	margin: auto;
+	background-image: url('/18.JPG');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswapthursdaycrawl:hover {
+	background-image: url('/thursdaycrawl.gif')
+}
+
+.imageswapred {
+	display: block;
+	margin: auto;
+	background-image: url('/7.JPG');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswapred:hover {
+	background-image: url('/red.gif')
+}
+
+.imageswapwwav {
+	display: block;
+	margin: auto;
+	background-image: url('/2.JPG');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswapwwav:hover {
+	background-image: url('/wwav.gif');
+}
+
+.imageswapoyl {
+	display: block;
+	margin: auto;
+	background-image: url('/18.JPG');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswapoyl:hover {
+	background-image: url('/oyl.gif');
 }
