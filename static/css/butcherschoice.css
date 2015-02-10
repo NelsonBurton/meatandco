@@ -81,3 +81,39 @@
 .imageswapoyl:hover {
 	background-image: url('/oyl.gif');
 }
+
+.imageswapjulia {
+	display: block;
+	margin: auto;
+	background-image: url('/aboutjulia.jpg');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswapjulia:hover {
+	background-image: url('/armpits-gif.gif');
+}
+
+.imageswapjuju {
+	display: block;
+	margin: auto;
+	background-image: url('/aboutjuju.jpg');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswapjuju:hover {
+	background-image: url('/Julia-Apples-GIF.gif');
+}
+
+.imageswaprachel {
+	display: block;
+	margin: auto;
+	background-image: url('/aboutrachel.jpg');
+	width: 360px;
+	height: 360px;
+}
+
+.imageswaprachel:hover {
+	background-image: url('/hands-gif.gif');
+}
