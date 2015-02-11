@@ -5,19 +5,47 @@
 	</title>
 	<link href="/css/bootstrap.css" rel="stylesheet">
 	<link href="/css/butcherschoice.css" rel="stylesheet">
+	<!--the below script is used to preload gif images for faster load times -->
+	<script type="text/javascript">	
+	function preloader() {
+		if (document.images) {
+			var img1 = new Image();
+			var img2 = new Image();
+			var img3 = new Image();
+			var img4 = new Image();
+			var img5 = new Image();
+			var img6 = new Image();
+			var img7 = new Image();
+
+
+			img1.src = "/lipstick-gif.gif";
+			img2.src = "/coats.gif";
+			img3.src = "/thursdaycrawl.gif";
+			img4.src = "/red.gif";
+			img5.src = "/wwav.gif";
+			img6.src = "/poem.gif";
+			img7.src = "/oyl.gif";
+		}
+	}
+	//below is so it preloads hidden images only after page first loads
+	function addLoadEvent(func) {
+		var oldonload = window.onload;
+		if (typeof window.onload != 'function') {
+			window.onload = func;
+		} else {
+			window.onload = function() {
+				if (oldonload) {
+					oldonload();
+				}
+				func();
+			}
+		}
+	}
+addLoadEvent(preloader);</script>
+
 </head>
 <body>
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-4">
-			</div>
-			<div class="col-md-4">
-				<h1 align="center">Meat & Co.
-				</h1>
-			</div>
-			<div class="col-md-4">
-			</div>
-		</div>
 		<div class="row">
 			<div style="height:55px;" class="col-md-4">
 			</div>
@@ -28,14 +56,34 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="/1.JPG"/>
+				<div class="horizontallineR"></div>
 			</div>
 			<div class="col-md-4">
+
+				<img src="/meatlogo.png">
+			</div>
+			<div class="col-md-4">
+				<div class="horizontallineL"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div style="height:40px;" class="col-md-4">
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4" class="col-xs-4" class="col-sm-4">
+				<img src="/1.JPG"/>
+			</div>
+			<div class="col-md-4" class="col-xs-4" class="col-sm-4">
 				<a href="/about.html">
 					<div class="imageswaplipstick"></div>
 				</a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" class="col-xs-4" class="col-sm-4">
 				<img src="/20.JPG"/>
 			</div>
 		</div>
@@ -210,6 +258,7 @@
 				<img src="/11.JPG"/>
 			</div>
 		</div>
+<!--		<iframe width="0" height="0" src="https://www.youtube.com/embed/MzKrszohZVY?autoplay=1" frameborder="0" allowfullscreen></iframe> -->
 	</div>
 </body>
 </html>
