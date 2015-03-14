@@ -37,6 +37,10 @@ handlers:
   static_files: static/about.html
   upload: static/about.html
 
+- url: /projects.html
+  static_files: static/projects.html
+  upload: static/projects.html
+
 libraries:
 - name: webapp2
   version: "2.5.2"
