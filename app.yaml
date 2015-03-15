@@ -41,6 +41,10 @@ handlers:
   static_files: static/projects.html
   upload: static/projects.html
 
+- url: /calendar.html
+  static_files: static/calendar.html
+  upload: static/calendar.html
+
 libraries:
 - name: webapp2
   version: "2.5.2"
