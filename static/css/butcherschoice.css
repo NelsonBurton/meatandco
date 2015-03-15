@@ -183,3 +183,11 @@
 .imageswapproject:hover {
 	background-image: url('/tempproject0color.jpg');
 }
+
+p strong {
+	color: #FF5050;
+}
+
+h2 strong {
+	color: #FF5050;
+}
